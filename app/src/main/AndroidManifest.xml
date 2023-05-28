@@ -10,19 +10,61 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.KotlinDemo04"
+        android:theme="@style/AppTheme"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="view.viewdemo.ViewMainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.KotlinDemo04">
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="view.viewdemo.activity.SpiderActivity" />
+        <activity android:name="view.viewdemo.activity.TextOneActivity"/>
+        <activity android:name="view.viewdemo.activity.RegiononeActivity"/>
+        <activity android:name="view.viewdemo.activity.CanvasActivity"/>
+        <activity android:name="view.viewdemo.activity.CustomCircleActivity"/>
+        <activity android:name="view.viewdemo.activity.CliprgnActivity"/>
+        <activity android:name="view.viewdemo.activity.ViewAnimationOneActivity"/>
+        <activity android:name="view.viewdemo.activity.ViewAnimationtwoActivity"/>
+        <activity android:name="view.viewdemo.activity.ScannerActivity"/>
+        <activity android:name="view.viewdemo.activity.ValueAnimatoroneActivity"/>
+        <activity android:name="view.viewdemo.activity.ImageValueanimtoroneActivity"/>
+        <activity android:name="view.viewdemo.activity.ThelettermailActivity"/>
+        <activity android:name="view.viewdemo.activity.SimpleparabolicActivity"/>
+        <activity android:name="view.viewdemo.activity.ScaleAnimationOneActivity"/>
+        <activity android:name="view.viewdemo.activity.BlendAnimationOneActivity"/>
+        <activity android:name="view.viewdemo.activity.Rotatethepop_upActivity"/>
+        <activity android:name="view.viewdemo.activity.ThephonerangthebellActivity"/>
+        <activity android:name="view.viewdemo.activity.ItemAnimatorActivity"/>
+        <activity android:name="view.viewdemo.activity.FunctiononeActivity"/>
+        <activity android:name="view.viewdemo.activity.RotatingloadActivity"/>
+        <activity android:name="view.viewdemo.activity.AliPlayActivity"/>
+        <activity android:name="view.viewdemo.activity.SVGuseActivity"/>
+        <activity android:name="view.viewdemo.activity.TextViewDemooneActivity"/>
+        <activity android:name="view.viewdemo.activity.BezierActivity"/>
+        <activity android:name="view.viewdemo.activity.BezierTwoActivity"/>
+        <activity android:name="view.viewdemo.activity.BezierThreeActivity"/>
+        <activity android:name="view.viewdemo.activity.ShadowoneLayerActivity"/>
+        <activity android:name="view.viewdemo.activity.BlurMaskFilterOneActivity"/>
+        <activity android:name="view.viewdemo.activity.BitmapShaderViewActivity"/>
+        <activity android:name="view.viewdemo.activity.TelescopeActivity"/>
+        <activity android:name="view.viewdemo.activity.AvatorActivity"/>
+        <activity android:name="view.viewdemo.activity.LinearGradientActivity"/>
+        <activity android:name="view.viewdemo.activity.ShimmerTextActivity"/>
+        <activity android:name="view.viewdemo.activity.RadialGradientActivity"/>
+        <activity android:name="view.viewdemo.activity.PorterDuffXfermodeActivity"/>
+        <activity android:name="view.viewdemo.activity.LightBookActivity"/>
+        <activity android:name="view.viewdemo.activity.EraserActivity"/>
+        <activity android:name="view.viewdemo.activity.MATRIX_SAVE_FLAG_Activity"/>
+        <activity android:name="view.viewdemo.activity.CanvasTwoActivity"/>
+        <activity android:name="view.viewdemo.activity.ShapeInstanceActivity"/>
+        <activity android:name="view.viewdemo.activity.TelescopeoneActivity"/>
+        <activity android:name="view.viewdemo.activity.CustomDrawableActivity"/>
     </application>
 
 </manifest>
